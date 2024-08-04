@@ -27,7 +27,7 @@ const AdminHome = () => {
 
   return (
     <div className="d-flex vh-100">
-      {/* <Sidebar />
+      <Sidebar />
       <div className="h-100 flex-grow-1 d-flex flex-column">
         <Header handleshowProfileModalAdmin={handleshowProfileModalAdmin} />
         <div
@@ -82,7 +82,7 @@ const AdminHome = () => {
       <ProfileModal
         show={showProfileModalAdmin}
         handleClose={handlecloseProfileModalAdmin}
-      /> */}
+      />
     </div>
   );
 };
